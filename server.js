@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine","handlebars");
-app.use("/burgers", routes);
+app.use("/", routes);
 app.use(express.static('public'));
 // Listener
 app.listen(PORT,function(){
