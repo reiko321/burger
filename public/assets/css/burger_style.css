@@ -1,22 +1,57 @@
-.header-bg {
-    background-color:red;
-    color:white;
-}
-.header {
-    color:red;
-}
-ul {
-    list-style-type: none;    
-}
-img {
-    max-height:200px;
-}
-.btn-mustard {
-    background-color:gold;
-    color:white;
+#wrapper {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black
 }
 
-.btn-ketchup {
-    background-color:red;
-    color:white;
+img {
+    display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 20%;
+     height: 20%;
+    
+}
+
+h1.thicker {
+	color: gold;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+h2.thicker {
+	color: gold;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+h3.thicker {
+	color: gold;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+form {
+	color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#burgers {
+	color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+#eaten-burgers {
+	color: white;
+    font-size: 25px;
+    text-align: center;
 }
