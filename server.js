@@ -11,9 +11,9 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-// Timeout
-app.use(timeout(15000));
-app.use(haltOnTimedout);
+// // Timeout
+// app.use(timeout(15000));
+// app.use(haltOnTimedout);
 
 function haltOnTimedout(req, res, next) {
     if (!req.timedout) next();
